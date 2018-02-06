@@ -5,6 +5,7 @@ public class Player2 extends Player {
         super(price);
     }
 
+
     public void playSong(String songName){
         System.out.println("Error");
     }

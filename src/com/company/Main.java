@@ -12,16 +12,22 @@ public class Main {
         p1.show();
         p1.playSong(song1);
 
+        System.out.println("_______________");
+
         System.out.println("Player#2");
         Player2 p2 = new Player2(200);
         p2.show();
         p2.playSong(song1);
 
+        System.out.println("_______________");
+
         System.out.println("Player#3");
         Player3 p3 = new Player3(300);
         p3.show();
-        p3.playSong(playlist, 0);
+        p3.playSong(playlist);
         p3.playAllSongs(playlist);
+
+        System.out.println("_______________");
 
         System.out.println("Player#4");
         Player4 p4 = new Player4(400);
@@ -29,11 +35,15 @@ public class Main {
         p4.playSong(playlist);
         p4.playAllSongs(playlist);
 
+        System.out.println("_______________");
+
         System.out.println("Player#5");
         Player5 p5 = new Player5(500);
         p5.show();
         p5.playSong(playlist);
         p5.playAllSongs(playlist);
+
+        System.out.println("_______________");
 
         System.out.println("Player#6");
         Player6 p6 = new Player6(600);

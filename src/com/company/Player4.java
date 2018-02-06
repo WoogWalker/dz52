@@ -9,9 +9,4 @@ public class Player4 extends  Player{
         System.out.println("Playing: " + playlist[playlist.length-1]);
     }
 
-    public void playAllSongs (String[] playlist){
-        for (int i = 0; i < playlist.length; i++){
-            System.out.println(playlist[i]);
-        }
-    }
 }

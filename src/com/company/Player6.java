@@ -11,12 +11,6 @@ public class Player6 extends Player {
         System.out.println("Playing: " + playlist[0]);
     }
 
-    public void playAllSongs (String[] playlist){
-        for (int i = 0; i < playlist.length; i++){
-            System.out.println(playlist[i]);
-        }
-    }
-
     public void shuffle(String[] playlist){
         System.out.println("shuffle all songs:");
 

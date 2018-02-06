@@ -15,4 +15,13 @@ public class Player {
         System.out.println("price: " + this.price);
     }
 
+    public void playSong(String songName){
+        System.out.println("Playing: " + songName);
+    }
+
+    public void playAllSongs (String[] playlist){
+        for (int i = 0; i < playlist.length; i++){
+            System.out.println(playlist[i]);
+        }
+    }
 }

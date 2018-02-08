@@ -1,7 +1,7 @@
 package com.company;
 
 public class Player {
-    private int price;
+    private final int price;
 
     public Player(int price) {
         this.price = price;
@@ -21,7 +21,7 @@ public class Player {
 
     public void playAllSongs (String[] playlist){
         for (int i = 0; i < playlist.length; i++){
-            System.out.println(playlist[i]);
+            System.out.println("Playing: " + playlist[i]);
         }
     }
 }

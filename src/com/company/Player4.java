@@ -8,5 +8,4 @@ public class Player4 extends  Player{
     public void playSong(String[] playlist){
         System.out.println("Playing: " + playlist[playlist.length-1]);
     }
-
 }

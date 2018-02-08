@@ -4,8 +4,8 @@ public class Main {
 
     public static void main(String[] args) {
 
-        String song1 = "The best song";
-        String[] playlist = new String[] {"The best song", "Good song", "Super song"};
+        String song1 = "str 1, The best song";
+        String[] playlist = new String[] {"arr 1, The best song", "arr 2, Good song", "arr 3, Super song"};
 
         System.out.println("Player#1");
         Player1 p1 = new Player1(100);
@@ -52,10 +52,5 @@ public class Main {
         p6.playAllSongs(playlist);
         p6.shuffle(playlist);
 
-//        int [] nums = new int[]{1,2,3,4,5};
-//
-//        for (int i = nums.length-1; i >= 0; i--){
-//            System.out.println(nums[i]);
-//        }
     }
 }

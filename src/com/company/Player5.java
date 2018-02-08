@@ -1,12 +1,12 @@
 package com.company;
 
-public class Player5 extends Player {
+public class Player5 extends Player3 {
     public Player5(int price) {
         super(price);
     }
 
     public void playSong(String[] playlist){
-        System.out.println("Playing: " + playlist[0]);
+        super.playSong(playlist);
     }
 
     public void playAllSongs (String[] playlist){
@@ -14,5 +14,4 @@ public class Player5 extends Player {
             System.out.println(playlist[i]);
         }
     }
-
 }
